@@ -11,13 +11,15 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Fragment 1"
-        android:id="@+id/button" />
+        android:id="@+id/button"
+        android:onClick="changeFragment"/>
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Fragment 2"
-        android:id="@+id/button2" />
+        android:id="@+id/button2"
+        android:onClick="changeFragment"/>
 
     <fragment
         android:layout_width="match_parent"
